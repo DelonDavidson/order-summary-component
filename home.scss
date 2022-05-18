@@ -1,0 +1,139 @@
+body{
+    
+    background-image: url("pattern-background-mobile.svg") ;  
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-color: hsl(225, 100%, 94%);
+    font-size: 18px;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    position: relative;
+    align-content: center;
+    
+    
+    
+
+    .hero{
+        border-style: solid ;
+        border-radius: 30px;
+        border-color: hsl(225, 100%, 98%);
+        background-color: hsl(225, 100%, 98%);
+        margin: 20px;
+        margin-top: 70px;
+        margin-bottom: 70px; 
+        padding-bottom: 46px;
+        display: inline-block;
+
+        .music{
+            border-radius: 30px 30px 0 0;
+            border-style: hidden;
+            margin-right: -3px;
+            margin-top: -3px;
+            margin-left: -3px;
+            }
+        .annualplan{
+            border-style: hidden;
+            
+            background-color: rgba(97, 95, 95, 0.048);
+            border-radius: 10px;
+            margin-right: 75px;
+            margin-left: 70px;
+            height: 80px;
+            
+            
+            
+            
+            
+             
+            
+            
+            
+        
+            
+    
+            .stikermus{
+                right: 105px;
+                top: 18px;
+                position: relative;
+                
+                width: 2.5em;
+            }
+            .annual2{
+                font-size: 12px;
+                position: relative;
+                bottom: 37px;
+                
+    
+
+                line-height: 6px;
+            
+            }
+            .change{
+                position: relative;
+                left: 100px;
+                bottom: 75px;
+                font-size: 13px;
+                color: hsl(245, 75%, 52%);
+                font-weight: bold;
+            }
+            
+
+        }
+            
+        
+      
+       
+        
+        /*
+        
+        padding: 28px;
+        padding-top: 70px;
+        padding-bottom: 50px; 
+
+        */
+        
+    .payment{
+        position: relative;
+        top: 20px;
+        border-style: hidden;
+        background-color: hsl(245, 75%, 52%);
+        border-radius: 8px;
+        z-index: 5 ;
+        margin-left: 70px;
+        margin-right: 70px;
+        height: 35px;
+        padding-top: 14px;
+        box-shadow: 1px 18px 8px 1px rgba(204, 216, 230, 0.596);        
+        
+        a{
+            text-decoration: none;
+            color: hsl(225, 100%, 98%);
+        }
+    }
+    
+    .cancel{
+        position:   relative;
+        top: 35px;
+        text-decoration: none;
+        font-size: 15px;
+        color:  hsl(224, 23%, 55%);
+    }
+
+    }
+
+    
+}
+
+@media only screen and (min-width : 376px){
+    body{
+        background-image: url("pattern-background-mobile.svg");
+        background-size: 1440px;
+        position: relative;
+        background-position-y: -300px;
+        
+    
+        
+        
+        
+    }
+}
